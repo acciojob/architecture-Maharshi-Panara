@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+body {
+            width: 1100px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        .imageContainer {
+            text-align: center;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        td:first-child, td:last-child {
+            width: 200px; /* Width for first and last columns */
+        }
+        td:nth-child(2) {
+            width: 600px; /* Width for middle column */
+        }
